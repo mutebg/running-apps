@@ -76,8 +76,6 @@ const getAppleData = async (browser, url) => {
     index++;
   }
 
-  console.log(appList);
-
   await browser.close();
 
   await sheets.saveFile(

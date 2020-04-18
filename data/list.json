@@ -40,7 +40,8 @@
       ],
       "logo": "https://lh3.googleusercontent.com/j-ZV144PlVuTVsLuBzIKyEw9CbFnmWw9ku2NJ1ef0gZJh-iiIN1nrNPmAtvgAteyDqU=s180-rw",
       "rating": "4.4"
-    }
+    },
+    "color": "#f96b24"
   },
   {
     "slug": "runkeeper",
@@ -74,7 +75,8 @@
       ],
       "logo": "https://lh3.googleusercontent.com/6E8NcQQijI7tPgtkBcZ8OnES_jVsrEdLpC_mH_1kGQRAb3uSzKUp8HxiGTqnUXucaa4=s180-rw",
       "rating": "4.4"
-    }
+    },
+    "color": "#2DC9D7"
   },
   {
     "slug": "runtastic",
@@ -115,7 +117,8 @@
       ],
       "logo": "https://lh3.googleusercontent.com/e4gpIkjrouRp4ZfT6h93opKPOWVxkQ1Hhe7cRfqQH1288tuQ5L-4_C6CQ-2oKbJexIo=s180-rw",
       "rating": "4.6"
-    }
+    },
+    "color": "#1c7585"
   },
   {
     "slug": "endomondo",
@@ -149,12 +152,13 @@
       ],
       "logo": "https://lh3.googleusercontent.com/HmS9cml_fJSc45NfVJDv3-mDgsxCvtCr4s2ATJuLBh8EtH9gnJDzh6SuZdfbnjCNtRU8=s180-rw",
       "rating": "4.6"
-    }
+    },
+    "color": "#31a91d"
   },
   {
     "slug": "nikerunclub",
     "name": "Nike runclub",
-    "website": "",
+    "website": "https://www.nike.com/bg/nrc-app",
     "googleurl": "https://play.google.com/store/apps/details?id=com.nike.plusgps&hl=en",
     "appleurl": "https://apps.apple.com/us/app/nike-run-club/id387771637",
     "free": "yes",
@@ -188,7 +192,8 @@
       ],
       "logo": "https://lh3.googleusercontent.com/J1z46Zsn3wlC2RSekq_iflMgR2e1ezR9-NH3Mqkc77Ji1k12Yal3w6zrYnGsJs5-Rfs=s180-rw",
       "rating": "4.6"
-    }
+    },
+    "color": "#000"
   },
   {
     "slug": "sunto",
@@ -200,7 +205,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "watch"
+    "category": "watch",
+    "color": ""
   },
   {
     "slug": "polar",
@@ -212,7 +218,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "watch"
+    "category": "watch",
+    "color": ""
   },
   {
     "slug": "garmin",
@@ -224,7 +231,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "watch"
+    "category": "watch",
+    "color": ""
   },
   {
     "slug": "coros",
@@ -236,7 +244,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "watch"
+    "category": "watch",
+    "color": ""
   },
   {
     "slug": "amazfit",
@@ -248,7 +257,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "watch"
+    "category": "watch",
+    "color": ""
   },
   {
     "slug": "zwift",
@@ -260,7 +270,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "virtual"
+    "category": "virtual",
+    "color": ""
   },
   {
     "slug": "epicrideweather",
@@ -272,7 +283,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "utils"
+    "category": "utils",
+    "color": ""
   },
   {
     "slug": "eatmyride",
@@ -284,7 +296,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "utils"
+    "category": "utils",
+    "color": ""
   },
   {
     "slug": "mapmyrun",
@@ -296,7 +309,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "phone"
+    "category": "phone",
+    "color": ""
   },
   {
     "slug": "fitbit",
@@ -308,7 +322,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "watch"
+    "category": "watch",
+    "color": ""
   },
   {
     "slug": "zombie run",
@@ -320,7 +335,8 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "phone"
+    "category": "phone",
+    "color": ""
   },
   {
     "slug": "google fit",
@@ -332,6 +348,7 @@
     "submonthly": "",
     "subyearly": "",
     "watchsupport": "",
-    "category": "phone"
+    "category": "phone",
+    "color": ""
   }
 ]

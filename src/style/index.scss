@@ -1,0 +1,105 @@
+@import "_reset";
+@import "_variables";
+@import "_mixins";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #f3f3f3;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: 400;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 80px auto 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.13);
+  background: #fff;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 4px;
+  text-decoration: none;
+  color: #252525;
+
+  &:not(.card--nohover) {
+    &:hover {
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+  }
+
+  .card__body {
+    padding: 16px;
+  }
+}
+
+// TYPOHRAPHY
+
+.page-heading {
+  font-size: 3rem;
+}
+
+.card-heading {
+  font-size: 1.8rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+}
+
+// UTILS
+// XS - S - M - L - XL
+.mb-s {
+  margin-bottom: 5px;
+}
+
+.mb-m {
+  margin-bottom: 10px;
+}
+
+.mb-l {
+  margin-bottom: 15px;
+}
+
+.mt-s {
+  margin-top: 5px;
+}
+
+.mt-m {
+  margin-top: 10px;
+}
+
+.mt-l {
+  margin-top: 15px;
+}
+
+.mt-xl {
+  margin-top: 25px;
+}
+
+.mr-m {
+  margin-right: 10px;
+}

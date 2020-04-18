@@ -39,6 +39,7 @@ const formatRow = (row) => {
     category,
     apple,
     google,
+    color,
   } = row;
 
   return {
@@ -54,6 +55,7 @@ const formatRow = (row) => {
     category,
     apple,
     google,
+    color,
   };
 };
 

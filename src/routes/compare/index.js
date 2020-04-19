@@ -1,6 +1,6 @@
 import { h } from "preact";
 import get from "just-safe-get";
-import { formatPrice } from "../../utils";
+import { formatPrice } from "../../utils/index";
 import "./style.scss";
 
 const Compare = ({ data, slugs }) => {

@@ -4,7 +4,7 @@ import get from "just-safe-get";
 import Gallery from "../../components/gallery";
 import appStoreLogo from "../../assets/ios-store-badge-1.svg";
 import playStoreLogo from "../../assets/android-store-badge-1.svg";
-import { formatPrice } from "../../utils";
+import { formatPrice } from "../../utils/index";
 
 import "./style.scss";
 

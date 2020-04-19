@@ -5,11 +5,11 @@ import "./style.scss";
 const Header = () => (
   <header class="header">
     <h1>
-      <Link href="/">MyRunning.app</Link>
+      <Link href="/">MyRunningApp</Link>
     </h1>
     <nav>
       <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
+      {/* <Link href="/about">About</Link> */}
     </nav>
   </header>
 );

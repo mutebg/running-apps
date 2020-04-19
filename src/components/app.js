@@ -16,6 +16,9 @@ export default class App extends Component {
    */
   handleRoute = (e) => {
     this.currentUrl = e.url;
+    if (window) {
+      window.scrollTo(0, 0);
+    }
   };
 
   render() {

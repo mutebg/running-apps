@@ -6,7 +6,58 @@
 
 .app-card {
   width: 269px;
+  position: relative;
+
   img {
     width: 100%;
+  }
+
+  &__compare {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: rgb(91, 91, 91);
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.compare-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: #dcdcdc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 10;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: flex-end;
+
+    button {
+      padding: 0;
+      border: 0;
+      margin-right: 10px;
+      img {
+        display: block;
+      }
+    }
+  }
+
+  &__action {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #999;
+    padding-left: 15px;
   }
 }

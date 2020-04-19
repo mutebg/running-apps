@@ -1,0 +1,21 @@
+@import "../../style/mixins";
+
+.compare-page {
+}
+
+.compare-table {
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+
+  td {
+    padding: 8px;
+  }
+
+  .label {
+    font-weight: 500;
+  }
+
+  .value {
+  }
+}

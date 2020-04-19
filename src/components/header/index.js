@@ -2,7 +2,7 @@ import { h } from "preact";
 import { Link } from "preact-router/match";
 import "./style.scss";
 
-const Header = ({ platform, changePlatform }) => (
+const Header = () => (
   <header class="header">
     <h1>
       <Link href="/">MyRunning.app</Link>
@@ -11,7 +11,6 @@ const Header = ({ platform, changePlatform }) => (
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
     </nav>
-    <button onClick={changePlatform}>{platform}</button>
   </header>
 );
 

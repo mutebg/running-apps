@@ -8,3 +8,5 @@ export const getRating = (app, platform) => {
   const apple = parseFloat(get(app, ["apple", "rating"], 0));
   return ((google + apple) / 2).toFixed(1);
 };
+
+export const formatPrice = (price) => price + "$";

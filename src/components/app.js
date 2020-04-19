@@ -7,22 +7,9 @@ import data from "../../data/list.json";
 // Code-splitting is automated for routes
 import Home from "../routes/home";
 import View from "../routes/view";
+import Compare from "../routes/compare";
 
 export default class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      platform: "apple",
-    };
-  }
-
-  changePlatform = () => {
-    this.setState({
-      platform: this.state.platform === "google" ? "apple" : "google",
-    });
-  };
-
   /** Gets fired when the route changes.
    *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
    *	@param {string} event.url	The newly routed URL
@@ -31,14 +18,15 @@ export default class App extends Component {
     this.currentUrl = e.url;
   };
 
-  render(_, { platform }) {
+  render() {
     return (
       <div id="app">
-        <Header changePlatform={this.changePlatform} platform={platform} />
+        <Header />
         <div class="container">
           <Router onChange={this.handleRoute}>
-            <Home path="/" data={data} platform={platform} />
-            <View path="/view/:appSlug" data={data} platform={platform} />
+            <Home path="/" data={data} />
+            <View path="/view/:appSlug" data={data} />
+            <Compare path="/compare/:slugs" data={data} />
           </Router>
         </div>
       </div>

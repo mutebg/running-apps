@@ -4,6 +4,7 @@ import get from "just-safe-get";
 import Gallery from "../../components/gallery";
 import appStoreLogo from "../../assets/ios-store-badge-1.svg";
 import playStoreLogo from "../../assets/android-store-badge-1.svg";
+import { formatPrice } from "../../utils";
 
 import "./style.scss";
 
@@ -22,9 +23,9 @@ const View = ({ data, appSlug }) => {
   } = getAppData(data, appSlug);
 
   useEffect(() => {
-    document.querySelector(".header").style.background = color;
+    document.body.style.setProperty("--accent-color", color);
     return () => {
-      document.querySelector(".header").style.background = "";
+      document.body.style.removeProperty("--accent-color");
     };
   }, [color]);
 
@@ -39,11 +40,11 @@ const View = ({ data, appSlug }) => {
           {apple && <p>Apple rating {apple.rating}</p>}
           {google && <p>Google rating {google.rating}</p>}
           {free && <p>Free version: {free}</p>}
-          {submonthly && <p>Monthly subscription: {submonthly}$</p>}
-          {subyearly && <p>Yearly subscription: {subyearly}$</p>}
+          {submonthly && <p>Monthly subscription: {formatPrice(submonthly)}</p>}
+          {subyearly && <p>Yearly subscription: {formatPrice(subyearly)}</p>}
           {website && (
             <p>
-              <a href={website} target="_blank">
+              <a href={website} target="_blank" rel="noopener noreferrer">
                 Official website
               </a>
             </p>

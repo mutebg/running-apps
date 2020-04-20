@@ -3,6 +3,7 @@ import { useState } from "preact/hooks";
 import "./style.scss";
 import { getRating } from "../../utils/index";
 import { route } from "preact-router";
+import Head from "../../components/head";
 
 const isSelectedForCompare = (items, item) => items.indexOf(item) >= 0;
 
@@ -23,6 +24,7 @@ const Home = ({ data }) => {
 
   return (
     <div class="home">
+      <Head title="all running apps in one place" />
       <button class="btn mb-l" onClick={() => setCompareMode(!isCompareMode)}>
         Compare
       </button>

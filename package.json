@@ -37,6 +37,7 @@
   "dependencies": {
     "just-safe-get": "^2.0.0",
     "preact": "^10.3.2",
+    "preact-head": "^1.0.3",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1"
   },

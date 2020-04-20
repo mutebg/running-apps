@@ -8,7 +8,6 @@
 
 ## ToDo
 
-- meta info / title
+- Meta info / rich snipets
 - a11y
-- add google analitics
 - add adwords

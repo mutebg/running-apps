@@ -2,6 +2,7 @@ import { h } from "preact";
 import { useEffect } from "preact/hooks";
 import get from "just-safe-get";
 import Gallery from "../../components/gallery";
+import Head from "../../components/head";
 import appStoreLogo from "../../assets/ios-store-badge-1.svg";
 import playStoreLogo from "../../assets/android-store-badge-1.svg";
 import { formatPrice } from "../../utils/index";
@@ -33,6 +34,8 @@ const View = ({ data, appSlug }) => {
 
   return (
     <div class="view-page">
+      <Head title={name + " review"} />
+
       <div class="view-overview">
         {logo && <img src={logo} alt={name} class="logo" />}
         <div class="view-summary">
